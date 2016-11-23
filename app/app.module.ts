@@ -6,9 +6,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { JsonpModule } from '@angular/http';
 import { NgbdCarouselBasic } from './carousel/carousel.component';
 
+import { HomeComponent } from './home/home.component'; 
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule, NgbModule.forRoot() ],
-  declarations: [ AppComponent, NgbdCarouselBasic ],
+  declarations: [ AppComponent, NgbdCarouselBasic, HomeComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

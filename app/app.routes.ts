@@ -14,9 +14,5 @@ export const routes: Routes = [
   { path: 'home', component: HomeComponent }
 ];
 
-// Deprecated provide
-// export const APP_ROUTER_PROVIDERS = [
-//   provideRouter(routes)
-// ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

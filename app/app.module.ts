@@ -9,14 +9,14 @@ import { HttpModule, JsonpModule } from '@angular/http';
 
 //declarations
 import { AppComponent }  from './app.component';
-import { CatListComponent} from './cats/cat-list.component';
+import { ProductListComponent} from './products/product-list.component';
 import { HomeComponent } from './home/home.component'; 
 import { routing } from './app.routes';
 import { NgbdCarouselBasic } from './carousel/carousel.component';
 
 @NgModule({
   imports:      [ routing, HttpModule, BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule, NgbModule.forRoot() ],
-  declarations: [ AppComponent, NgbdCarouselBasic, HomeComponent, CatListComponent ],
+  declarations: [ AppComponent, NgbdCarouselBasic, HomeComponent, ProductListComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

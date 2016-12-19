@@ -5,12 +5,12 @@
 // import { provideRouter, RouterConfig } from '@angular/router';
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CatListComponent } from './cats/cat-list.component';
+import { ProductListComponent } from './products/product-list.component';
 import { HomeComponent } from './home/home.component';
 
 // Route Configuration
 export const routes: Routes = [
-  { path: 'cats', component: CatListComponent },
+  { path: 'products', component: ProductListComponent },
   { path: 'home', component: HomeComponent }
 ];
 

@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
           <!-- Navigation with router directives-->
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" [routerLink]="['/home']">Home</a>
-            <a class="mdl-navigation__link" [routerLink]="['/cats']">Products</a>
+            <a class="mdl-navigation__link" [routerLink]="['/products']">Products</a>
             <a class="mdl-navigation__link" [routerLink]="['/cats']">About</a>
             <a class="mdl-navigation__link" [routerLink]="['/cats']">Contact</a>
           </nav>
@@ -25,10 +25,7 @@ import { Component } from '@angular/core';
 
       
       <main class="mdl-layout__content">
-        <div class = "container" style = "max-width: 900px">
-        <ngbd-carousel-basic></ngbd-carousel-basic>
         <router-outlet></router-outlet>
-        </div>
       </main>
       
     </div>

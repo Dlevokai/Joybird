@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
       <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
-
           <!-- Title -->
           <span class="mdl-layout-title">Joybird Pottery</span>
 
@@ -17,7 +16,7 @@ import { Component } from '@angular/core';
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" [routerLink]="['/home']">Home</a>
             <a class="mdl-navigation__link" [routerLink]="['/products']">Products</a>
-            <a class="mdl-navigation__link" [routerLink]="['/cats']">About</a>
+            <a class="mdl-navigation__link" [routerLink]="['/about']">About/Contact</a>
             <a class="mdl-navigation__link" [routerLink]="['/cats']">Contact</a>
           </nav>
         </div>

@@ -11,7 +11,8 @@ import { HomeComponent } from './home/home.component';
 // Route Configuration
 export const routes: Routes = [
   { path: 'products', component: ProductListComponent },
-  { path: 'home', component: HomeComponent }
+  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent }
 ];
 
 

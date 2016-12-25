@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'my-app',
   template: `
    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-      <header class="mdl-layout__header mdl-layout__header--transparent">
+      <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
           <span class="mdl-layout-title">Joybird Pottery</span>
@@ -26,9 +26,12 @@ import { Component } from '@angular/core';
       <main class="mdl-layout__content">
         <router-outlet></router-outlet>
       </main>
-      
+      <button class = "mdl-button mdl-button--raised mdl-button--accent">
+               Button
+      </button>
     </div>
     `,
+  encapsulation: ViewEncapsulation.None
 })
 
 export class AppComponent  { name = 'Angular'; }
